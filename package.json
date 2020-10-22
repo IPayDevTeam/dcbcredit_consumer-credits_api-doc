@@ -1,0 +1,14 @@
+{
+  "name": "dcbcredit_consumer-credits_api-doc",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "docsify serve ./docs"
+  },
+  "repository": "git@github.com:IPayDevTeam/dcbcredit_consumer-credits_api-doc.git",
+  "author": "Boris Koziorov <bk@berweb.org>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "docsify-cli": "^4.4.1"
+  }
+}
