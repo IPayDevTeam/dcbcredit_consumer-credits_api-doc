@@ -1,4 +1,5 @@
 - [General](/)
+  - [Objects](objects)
 - [Calculator](calculator.md)
 - [Credits]()
   - [General](credits/)

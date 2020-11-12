@@ -86,7 +86,55 @@
 
 #### Response:
 
-?> _TODO_
+Возвращает коллекцию обьектов кредита.
+
+Информация об обьекте кредита: [Credit](objects?id=credit ':target=_blank')
+
+```json
+{
+    "data": [
+        {
+            "id": "23",
+            "origin_id": "3",
+            "currency": "eur",
+            "client_id": "86166",
+            "order_id": "112235",
+            "external_id": "25600",
+            "consumer_credit_setting_id": "1",
+            "status": "new",
+            "purchase_amount": "1000.00",
+            "term": "4",
+            "first_installment_amount": "150.00",
+            "issue_commission_amount": "0.00",
+            "issued_at": null,
+            "contract_accepted_at": null,
+            "contract_code": "g484413",
+            "created_at": "2020-09-24 06:59:43",
+            "created_by": null,
+            "updated_at": null,
+            "updated_by": null,
+            "deleted_at": null,
+            "deleted_by": null,
+            "origin": {
+                "id": "3",
+                "domain": "localhost:8080"
+            }
+        },
+        ...
+    ],
+    "links": {
+        "self": {
+            "href": "http://apiUrl.local/consumer-credit/credits?externalId=25600&type=active&page=1"
+        }
+    },
+    "meta": {
+        "totalCount": 2,
+        "pageCount": 1,
+        "currentPage": 1,
+        "perPage": 20
+    }
+}
+```
 
 
 <br>
@@ -112,7 +160,41 @@
 
 #### Response:
 
-?> _TODO_
+Возвращает обьект кредита.
+
+Информация об обьекте кредита: [Credit](objects?id=credit ':target=_blank')
+
+```json
+{
+    "data": {
+        "id": "23",
+        "origin_id": "3",
+        "currency": "eur",
+        "client_id": "86166",
+        "order_id": "112235",
+        "external_id": "25600",
+        "consumer_credit_setting_id": "1",
+        "status": "new",
+        "purchase_amount": "1000.00",
+        "term": "4",
+        "first_installment_amount": "150.00",
+        "issue_commission_amount": "0.00",
+        "issued_at": null,
+        "contract_accepted_at": null,
+        "contract_code": "g484413",
+        "created_at": "2020-09-24 06:59:43",
+        "created_by": null,
+        "updated_at": null,
+        "updated_by": null,
+        "deleted_at": null,
+        "deleted_by": null,
+        "origin": {
+            "id": "3",
+            "domain": "localhost:8080"
+        }
+    }
+}
+```
 
 
 <br>
@@ -138,4 +220,4 @@
 
 #### Response:
 
-?> _TODO_
+?> Todo
